@@ -36,6 +36,7 @@ public class UserController {
             @ApiImplicitParam(paramType = "文本",name="password",value = "注册密码",required = true),
     })
     public ResultVo regist(String username,String password){
+        System.out.println("git test");
         return userService.userRegist(username,password);
 
     }
