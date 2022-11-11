@@ -37,6 +37,8 @@ public class UserController {
     })
     public ResultVo regist(String username,String password){
         System.out.println("git test");
+        System.out.println("git test2");
+
         return userService.userRegist(username,password);
 
     }
