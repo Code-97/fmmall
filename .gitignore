@@ -1,0 +1,28 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+target
+/service/target/
+/.idea/
+将删除 api/src/main/resources/static/
+将删除 api/src/main/resources/templates/
+将删除 beans/src/main/resources/
+将删除 beans/src/test/
+将删除 beans/target/generated-sources/
+将删除 common/src/main/resources/
+将删除 common/src/test/
+将删除 common/target/generated-sources/
+将删除 mapper/src/main/java/cn/azh/fmmall/entity/
+将删除 mapper/src/test/
+将删除 mapper/target/generated-sources/
+将删除 mapper/target/generated-test-sources/
+将删除 mapper/target/test-classes/
+将删除 service/src/main/resources/
+将删除 service/src/test/
+将删除 service/target/generated-sources/
