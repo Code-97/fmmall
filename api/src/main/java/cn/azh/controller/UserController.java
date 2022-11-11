@@ -39,6 +39,8 @@ public class UserController {
         System.out.println("git test");
         System.out.println("git test2");
 
+        System.out.println("push test!");
+
         return userService.userRegist(username,password);
 
     }
