@@ -41,6 +41,8 @@ public class UserController {
 
         System.out.println("push test!");
 
+        System.out.println("pull test!");
+
         return userService.userRegist(username,password);
 
     }
